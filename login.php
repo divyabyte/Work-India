@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost","root","empire123","notes");
+    $con = mysqli_connect("localhost","root","empire123","todo-list");
     if ($con)
     { 
             $email = $_POST['mail'];
